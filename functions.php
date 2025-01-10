@@ -5,6 +5,9 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
+// Define THEMEROOT constant to use it on mulitple php scripts across the whole theme.
+define('THEMEROOT', get_stylesheet_directory_uri());
+
 //Disabling Default emojis scripts from wordpress for better performance since scripts are not needed for this theme.
 function disable_emojis() {
     remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
