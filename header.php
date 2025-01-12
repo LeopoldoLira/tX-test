@@ -9,4 +9,25 @@
     <? wp_head();?>
 </head>
 <body <? body_class();?> >
-    <header></header>
+    <header>
+        <div class='desktop-banner-container'>
+            <div class='left-options'>
+                <button>Residential</button>
+                <a href="/">Business</a>
+                <a href="/">Careers</a>
+            </div>
+            <div class='right-options'>
+                <a href="/">Learn More</a>
+                <a href="/">About Us</a>
+            </div>
+        </div>
+        <div class='mobile-banner-container'>
+            <div class='left-options'>
+                <button>Residential</button>
+                <a href="/">Business</a>
+            </div>
+            <div class='right-options'>
+                <button href="/">1-888-477-2177</button>
+            </div>
+        </div>
+    </header>
