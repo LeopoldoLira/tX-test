@@ -23,5 +23,97 @@
 </section>
 
 
+
+<section class='requirements-container'>
+    <h2>
+        Highly specialized team flexible to your unique needs
+    </h2>
+    <div class='requirements-container__tiles'>
+        <div class='tile'>
+            <div class='tile-img'>
+                <img src='/wp-content/uploads/2025/01/ecommerce-marketing.png'/>
+            </div>
+            <div class='tile-heading'>
+                <h3>Ecommerce Marketing</h3>
+            </div>
+            <div class='tile-list'>
+                <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>Advertising Management</p>
+                </div>
+                <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>A+ Content Design</p>
+                </div>
+                <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>Brand Store Development</p>
+                </div>
+                <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>SEO & Rank Optimization</p>
+                </div>
+            </div>
+        </div>
+        <div class='tile'>
+            <div class='tile-img'>
+                <img src='/wp-content/uploads/2025/01/inventory-management.png'/>
+            </div>
+            <div class='tile-heading'>
+                <h3>Inventory Management</h3>
+            </div>
+            <div class='tile-list'>
+            <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>Nationwide Fulfillment</p>
+                </div>
+                <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>Inventory Forecasting</p>
+                </div>
+                <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>In-stock Assurance</p>
+                </div>
+                <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>Return Management</p>
+                </div>
+            </div>
+        </div>
+        <div class='tile'>
+            <div class='tile-img'>
+                <img src='/wp-content/uploads/2025/01/brand-protection.png'/>
+            </div>
+            <div class='tile-heading'>
+                <h3>Brand Protection</h3>
+            </div>
+            <div class='tile-list'>
+            <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>24/7 Customer Service</p>
+                </div>
+                <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>Unauthorized Seller Removal</p>
+                </div>
+                <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>Review Management</p>
+                </div>
+                <div>
+                    <img src='/wp-content/themes/thrillx/resources/icons/Check.png' />
+                    <p>Case Resolution</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class='primary-button'>
+        Sign-up Today
+    </button>
+
+</section>
+
+
 <!-- This loads the footer.php file at the root of the theme. By doing this all of the content of the footer.php file will be load to this template and get all of the dynamic data. -->
 <? get_footer();?>
