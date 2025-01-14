@@ -12,7 +12,7 @@
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 </head>
-<body <? body_class();?>>
+<body <? body_class();?> id='body'>
     <header>
         <div class='desktop-banner-container'>
             <div class='left-options'>
@@ -34,4 +34,143 @@
                 <button href="/">1-888-477-2177</button>
             </div>
         </div>
+
+        <nav class='desktop-navigation'>
+            <div class='desktop-navigation__icon'>
+                <a href="/">
+                    <img src="http://thrillx-test.local/wp-content/uploads/2025/01/ThrillXlogo.png" alt="ThrillX Logo" />
+                </a>
+            </div>
+            <div class='desktop-navigation__options'>
+                <div id='menu-opener'>
+                    <p>Internet</p>
+                    <span><img src="/wp-content/themes/thrillx/resources/icons/white-caret-down-icon.svg" alt="" /></span>
+                </div>
+                <div>
+                    <p>TV</p>
+                    <span><img src="/wp-content/themes/thrillx/resources/icons/white-caret-down-icon.svg" alt="" /></span>
+                </div>
+                <div>
+                    <p>Phone</p>
+                    <span><img src="/wp-content/themes/thrillx/resources/icons/white-caret-down-icon.svg" alt="" /></span>
+                </div>
+                <div>
+                    <p>Mobile</p>
+                    <span><img src="/wp-content/themes/thrillx/resources/icons/white-caret-down-icon.svg" alt="" /></span>
+                </div>
+                <div>
+                    <p>Support</p>
+                    <span><img src="/wp-content/themes/thrillx/resources/icons/white-caret-down-icon.svg" alt="" /></span>
+                </div>
+            </div>
+            <div class='desktop-navigation__ctas'>
+                <img src="/wp-content/themes/thrillx/resources/icons/search-icon.svg" alt=""/ >
+                <button class='primary-nav-cta-buton'>Sign-up Today</button>
+                <button class='secondary-nav-cta-button'><span>Available 24/7</span> <br/>1-877-327-4440</button>
+            </div>
+        </nav>
+        <nav id='desktop-navigation-submenu' class='desktop-navigation-submenu'>
+            <div>
+                <div class='submenu-options'>
+                    <div class='item'>
+                        <h2>Internet Packages</h2>
+                    </div>
+                    <div class='sub-item'>
+                        <h3>Whole Home Wi-fi</h3>
+                        <h3>Add-ons</h3>
+                        <h3>Fibre to Home</h3>
+                    </div>
+                    <div class='item-promo'>
+                        <div>
+                            <h2>Quad Play Bundle</h2>
+                            <p>Internet + Mobile + Phone</p>
+                            <span>Starting at</span>
+                            <p>$133.90/mo</p>
+                            <button class='primary-button'>Sign-up Today</button>
+                        </div>
+                        <div>
+                            <img src='/wp-content/themes/thrillx/resources/imgs/internet-sub-item-promo.jpeg'/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <nav class='mobile-navigation'>
+            <div class='mobile-navigation__logo'>
+                <img src="http://thrillx-test.local/wp-content/uploads/2025/01/ThrillXlogo.png" alt="ThrillX Logo" />
+            </div>
+            <div class='mobile-navigation__menu'>
+                <button>
+                    <img src="/wp-content/themes/thrillx/resources/icons/search-icon.svg" alt=""/ >
+                </button>
+                <button id='hamburger-menu'>
+                    <img src="/wp-content/themes/thrillx/resources/icons/hamburguer-menu.svg" alt=""/ >
+                </button>
+            </div>
+        </nav>
+
+        <nav class="mobile-navigation-submenu" id='mobile-navigation-submenu'>
+            <div class='mobile-navigation-submenu__close' id='close-sub-menu'>
+                <img src='/wp-content/themes/thrillx/resources/icons/close-menu-icon.svg' alt='Close Menu'/>
+            </div>
+            <div class='mobile-navigation-submenu__options'>
+                <div class='accordion--options'>
+                    <div class='accordion--option' id='accordion--option-opener'>
+                        <p>Internet</p>
+                        <img src="/wp-content/themes/thrillx/resources/icons/black-caret-down-icon.svg" alt="">
+                    </div>
+                    <div class='accordion--content' id='accordion--content'>
+                        <div>
+                            <div class='content-options'>
+                                <p>Internet Packages</p>
+                                <p>Whole Home Wi-fi</p>
+                                <p>Add-ons</p>
+                                <p>Fibre to the Home</p>
+                            </div>
+                            <div class='content-promo'>
+                                <h2>Quad Play Bundle</h2>
+                                <p>Internet + Mobile + Phone</p>
+                                <span>Starting at</span>
+                                <h3>$133.90/mo</h3>
+                                <button class='primary-button'>Sign-up Today</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='accordion--options'>
+                    <div class="accordion--option">
+                        <p>TV</p>
+                    <img src="/wp-content/themes/thrillx/resources/icons/black-caret-down-icon.svg" alt="">
+                    </div>
+                </div>
+                <div class='accordion--options'>
+                    <div class="accordion--option">
+                        <p>Phone</p>
+                    <img src="/wp-content/themes/thrillx/resources/icons/black-caret-down-icon.svg" alt="">
+                    </div>
+                </div>
+                <div class='accordion--options'>
+                    <div class="accordion--option">
+                        <p>Mobile</p>
+                    <img src="/wp-content/themes/thrillx/resources/icons/black-caret-down-icon.svg" alt="">
+                    </div>
+                </div>
+                <div class='accordion--options'>
+                    <div class="accordion--option">
+                        <p>Support</p>
+                    <img src="/wp-content/themes/thrillx/resources/icons/black-caret-down-icon.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class='mobile-navigation-submenu__ctas'>
+                <button class='primary-button'>ThrillX</button>
+                <button class=''>Sign Up</button>
+                <button class=''>123-456-7890</button>
+            </div>
+        </nav>
+
+
+
     </header>

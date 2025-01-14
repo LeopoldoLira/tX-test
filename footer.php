@@ -142,6 +142,37 @@ document.querySelectorAll('.primary-button-availability').forEach(button => {
     })
 
 
+openMenu = document.getElementById('menu-opener');
+subMenu = document.getElementById('desktop-navigation-submenu');
+
+openMenu.addEventListener('click', ()=>{
+  subMenu.classList.toggle('is-menu-open')
+})
+
+
+openMobileMenu = document.getElementById('hamburger-menu');
+body = document.getElementById('body');
+mobileNavigationSubMenu = document.getElementById('mobile-navigation-submenu');
+openMobileMenu.addEventListener('click',()=>{
+    body.classList.add('no-scroll')
+    mobileNavigationSubMenu.classList.toggle('is-open')
+})
+
+
+
+accordionOpener = document.getElementById('accordion--option-opener');
+accordionContent = document.getElementById('accordion--content');
+
+closeMobileMenu = document.getElementById('close-sub-menu');
+closeMobileMenu.addEventListener('click',()=>{
+  body.classList.remove('no-scroll')
+    mobileNavigationSubMenu.classList.toggle('is-open')
+
+})
+
+accordionOpener.addEventListener('click', ()=>{
+  accordionContent.classList.toggle('is-open')
+})
 
 </script>
 </body>
