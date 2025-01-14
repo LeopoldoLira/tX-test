@@ -61,32 +61,57 @@
  </div>
 </section>
 
-<section class='capabilities-container'>
-    <div class='capabilities-container__commitment'>
-        <div class='capabilities-img'>
-            <img src="/wp-content/uploads/2025/01/capability-image-one-scaled.webp" alt="" />
-        </div>
-        <div class='capabilities-content'>
-            <div>
-                <h2>Harness Amazon’s reach without the headache</h2>
-                <p>We take care of the marketplace so you can spend more time on your core competency.</p>
-                <button class='primary-button'>Sign-up Today</button>
-            </div>
-        </div>
+<section class="packages-section">
+  <!-- First Div: Input Section -->
+  <div class="packages-input">
+    <h2 class="packages-title">Level up on your internet speed</h2>
+    <p class="packages-description">
+      Enter your postal code to find packages catered to you
+    </p>
+    <div class="input-group">
+      <input 
+        type="text" 
+        id="postal-code" 
+        placeholder="Enter postal code" 
+        class="postal-code-input"
+      />
+      <button id="check-availability" class="secondary-button">
+        Check Availability
+      </button>
     </div>
-    <div class='capabilities-container__accordion'>
-        <div class='capabilities-content'>
-            <div>
-                <h2>Keep full brand control while we do the heavy lifting</h2>
-                <p>We take care of the marketplace so you can spend more time on your core competency.</p>
-                <button class='primary-button'>Sign-up Today</button>
-            </div>
-        </div>
-        <div class='capabilities-img'>
-            <img src="/wp-content/uploads/2025/01/capability-image-two-scaled.webp" alt="" />
-        </div>
+    <p class="help-text">
+      Not sure how much speed you need? 
+      <a href="#" class="help-link">Check here</a>
+    </p>
+  </div>
+    <div class="packages">
+        <? get_template_part('template-parts/internet-packages'); ?>
     </div>
 </section>
+
+<dialog id="package-modal">
+    <div class='package-modal-content'>
+        <div>
+            <h2>Discover internet packages</h2>
+            <p>Enter your postal code below, and let us find the perfect internet plans available in your area. </p>
+        </div>
+        <div class="input-group-modal">
+            <input 
+                type="text" 
+                id="postal-code-modal" 
+                placeholder="Enter postal code" 
+                class="postal-code-input"
+            />
+            <button id="check-availability-modal" class="primary-button">
+                Check Availability
+            </button>
+        </div>
+
+        <button id='close-modal-button'> <img src='/wp-content/themes/thrillx/resources/icons/close-modal-icon.svg' /></button>
+    </div>
+</dialog>
+
+
 
 
 <section class='requirements-container'>
@@ -177,6 +202,33 @@
         Sign-up Today
     </button>
 
+</section>
+
+<section class='capabilities-container'>
+    <div class='capabilities-container__commitment'>
+        <div class='capabilities-img'>
+            <img src="/wp-content/uploads/2025/01/capability-image-one-scaled.webp" alt="" />
+        </div>
+        <div class='capabilities-content'>
+            <div>
+                <h2>Harness Amazon’s reach without the headache</h2>
+                <p>We take care of the marketplace so you can spend more time on your core competency.</p>
+                <button class='primary-button'>Sign-up Today</button>
+            </div>
+        </div>
+    </div>
+    <div class='capabilities-container__accordion'>
+        <div class='capabilities-content'>
+            <div>
+                <h2>Keep full brand control while we do the heavy lifting</h2>
+                <p>We take care of the marketplace so you can spend more time on your core competency.</p>
+                <button class='primary-button'>Sign-up Today</button>
+            </div>
+        </div>
+        <div class='capabilities-img'>
+            <img src="/wp-content/uploads/2025/01/capability-image-two-scaled.webp" alt="" />
+        </div>
+    </div>
 </section>
 
 

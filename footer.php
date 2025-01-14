@@ -81,8 +81,6 @@ document.getElementById('pause-button').onclick = function () {
    // Toggle button visibility
    pauseButton.style.display = "none";
     playButton.style.display = "flex";
-
-  console.log("Swiper autoplay and animation paused.");
 };
 
 // PLAY BUTTON FUNCTIONALITY
@@ -115,9 +113,33 @@ document.getElementById('play-button').onclick = function () {
   playButton.style.display = "none";
   pauseButton.style.display = "flex";
 
-  console.log("Swiper autoplay and animation resumed.");
 };
 
+
+
+// Get all buttons with the class 'primary-button-availability'
+document.querySelectorAll('.primary-button-availability').forEach(button => {
+    button.addEventListener('click', function () {
+        // Get the content of the package
+        const packageContent = this.closest('.package').querySelector('.package-content').innerHTML;
+        
+        // Open the modal
+        const modal = document.getElementById('package-modal');
+        const modalContent = document.getElementById('modal-content');
+        
+        // Open the dialog
+        modal.showModal();
+
+        // close the modal
+
+      });
+    });
+    
+    const closeModalButton = document.getElementById('close-modal-button')
+    closeModalButton.addEventListener('click', ()=>{
+      const modal = document.getElementById('package-modal');
+      modal.close();
+    })
 
 
 

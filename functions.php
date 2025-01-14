@@ -10,6 +10,11 @@ define('THEMEROOT', get_stylesheet_directory_uri());
 
 require_once('includes/scripts.php');
 
+require_once('includes/postal-codes-admin-page.php');
+require_once('includes/internet-packages-admin-page.php');
+
+require_once('includes/postal-code-script.php');
+
 //Disabling Default emojis scripts from wordpress for better performance since scripts are not needed for this theme.
 function disable_emojis() {
     remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
