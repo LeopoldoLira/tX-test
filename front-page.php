@@ -15,15 +15,15 @@
     </div>
     <div class="swiper-slide" style='background-image:url("/wp-content/themes/thrillx/resources/imgs/slide-two.jpeg")'>
         <div  class='swiper-slide-content'>
-            <h2>Experience local and reliable connectivity you can trust</h2>
-            <p>Fast, reliable internet, phone, TV, and mobility for home or business. Enjoy local support in just 13 seconds—connectivity made easy.</p>
+            <h2>Save big with our exclusive Double Play Bundle</h2>
+            <p>Enjoy our exclusive Double Play deal when you bundle Internet + TV. Offer available where fibre technology exists.</p>
             <button class='secondary-button' >Sign-up Today</button>
         </div>
     </div>
     <div class="swiper-slide" style='background-image:url("/wp-content/themes/thrillx/resources/imgs/slide-three.jpeg")'>
         <div  class='swiper-slide-content'>
-            <h2>Experience local and reliable connectivity you can trust</h2>
-            <p>Fast, reliable internet, phone, TV, and mobility for home or business. Enjoy local support in just 13 seconds—connectivity made easy.</p>
+            <h2>Experience entertainment like never before</h2>
+            <p>From thrilling dramas to heart warming comedies, explore a vast library of channels that cater to your every mood when you subscribe today. </p>
             <button class='secondary-button' >Sign-up Today</button>
         </div>
     </div>
@@ -294,7 +294,25 @@
         <div class='capabilities-content'>
             <div>
                 <h2>Keep full brand control while we do the heavy lifting</h2>
-                <p>We take care of the marketplace so you can spend more time on your core competency.</p>
+                <div class='capabilities-accordion'>
+                        <p>Approve all Changes</p>
+                        <img src="/wp-content/themes/thrillx/resources/icons/black-caret-down-icon.svg"  id='capabilities-accordion-opener' alt="">
+                </div>
+                <div class='capabilities-accordion--content' id='capabilities-accordion--content'>
+                    <div>
+                        <div class='capabilities-content-options'>
+                            <p>We include you for input and feedback on copy, storefront, etc as part of everyday decision making.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='capabilities-accordion' id='capabilities-accordion-opener'>
+                        <p>Full transparency</p>
+                        <img src="/wp-content/themes/thrillx/resources/icons/black-caret-down-icon.svg" alt="">
+                </div>
+                <div class='capabilities-accordion' id='capabilities-accordion-opener'>
+                        <p>Reduce unauthorized sellers</p>
+                        <img src="/wp-content/themes/thrillx/resources/icons/black-caret-down-icon.svg" alt="">
+                </div>
                 <button class='primary-button'>Sign-up Today</button>
             </div>
         </div>

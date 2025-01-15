@@ -174,6 +174,17 @@ accordionOpener.addEventListener('click', ()=>{
   accordionContent.classList.toggle('is-open')
 })
 
+
+
+// Accordion for Capabilities Section
+capabilitiesAccordionOpener = document.getElementById('capabilities-accordion-opener');
+capabilitiesAccordionContent = document.getElementById('capabilities-accordion--content');
+
+capabilitiesAccordionOpener.addEventListener('click',()=>{
+  capabilitiesAccordionOpener.classList.toggle('is-rotated');
+  capabilitiesAccordionContent.classList.toggle('is-open');
+})
+
 </script>
 </body>
 </html>
