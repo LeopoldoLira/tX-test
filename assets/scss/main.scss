@@ -1,0 +1,89 @@
+@use 'sass:math';
+
+// custom Properties
+:root{
+    // Colors
+    --primary-color:#D02727;
+    --primary-text-color:#FFFFFF;
+    --secondary-text-color:#000000;
+    --primary-background-color:#F0F0F0;
+    --cta-primary-color:#FFE1E3;
+
+    --tile-paragraph-color:#363328;
+
+    --responsive-paragraph-color:#333333;
+    
+
+    --white-background-color: #FFFFFF;
+    --dark-background-color: #000000;
+    --grey-border-color:#CACACA;
+
+    // utils
+    --base:16;
+
+}
+
+
+
+
+// Loading Fonts locally to be used in headings and other content elements.
+@font-face{
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'OpenSans';
+    src: url('../fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito';
+}
+
+p, a, button, input{
+    font-family: 'OpenSans';
+}
+
+body{
+    position: relative;
+}
+
+// Styles for components.
+@import './Components';
+
+
+// Styles dedicated for the front-page.php template.
+@import './FrontPageStyles/Front-Page_Styles';
+// Reponsive Styles dedicated for the front-page.php template.
+@import './FrontPageStyles/Responsive/Front-Page_Styles';
+
+
+
+// Styles dedicated for the footer.php template.
+@import './FooterStyles/Footer_styles';
+// Reponsive Styles dedicated for the footer.php template.
+@import './FooterStyles/Responsive/Footer_styles';
+
+
+// Styles dedicated for the header.php template.
+@import './HeaderStyles/Header_styles';
+// Reponsive Styles dedicated for the header.php template.
+@import './HeaderStyles/Responsive/Header_styles';
+
+// Loading swiper styles for the hero section of the front-page.php template
+@import './SwiperStyles/HeroSwiperStyles/hero-swiper-styles';
+// Loading responsive swiper styles for the hero section of the front-page.php template
+@import './SwiperStyles/ResponsiveHeroSwiperStyles/hero-swiper-styles';
+
+// Loading swiper styles for the secondary support section of the front-page.php template
+@import './SwiperStyles/SupportSwiperStyles/support-swiper-styles';
+// Loading responsive swiper styles for the secondary support section of the front-page.php template
+@import './SwiperStyles/ResponsiveSupportSwiperStyles/support-swiper-styles';
+
+
+// Loading Styles for Modal Dialog
+@import './ModalStyles/Modal_styles';
+
+// Loading responsive styles for Modal Dialog
+@import './ModalStyles/ResponsiveModalStyles/modal_styles'

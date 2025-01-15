@@ -1,0 +1,365 @@
+@media (min-width:1px) and (max-width:425px){
+
+// Showing elements based on the device size.
+.desktop-button{
+    display: none;
+}
+
+.mobile-button{
+    display: block;
+}
+
+
+.scroll-container{
+    display: none;
+}
+
+.mobile-scroll-container{
+    padding: 48px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    flex-direction: column;
+    &__item{
+        img{
+            width: 327px;
+            height: 246px;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+        button{
+            background-color: var(--primary-color);
+            padding: 16px 56px;
+            border-radius: 20px;
+            font-weight: 700;
+            border: none;
+            color: white;
+        }
+    }
+}
+
+
+
+// Responsive Styles for Fibre Section container
+.fibre-container{
+    padding: calc(48rem/var(--base)) calc(24rem/var(--base));
+    &__home{
+        flex-direction: column;
+        .info{
+            padding: calc(32rem/var(--base)) calc(24rem/var(--base));
+            h2{
+                font-size: calc(27rem/var(--base));
+            }
+
+            p{
+                font-size: calc(16rem/var(--base));
+                color: var(--responsive-paragraph-color);
+            }
+
+            button{
+                font-size: calc(15rem/var(--base));
+                padding: calc(16rem/var(--base)) calc(47.5rem/var(--base));
+            }
+
+        }
+
+        picture{
+            img{
+                width: calc(327rem/var(--base));
+                height: calc(327rem/var(--base));
+            }
+        }
+    }
+
+    &__area{
+        .content{
+            padding: calc(48rem/var(--base)) calc(24rem/var(--base));
+            h2{
+                font-size: calc(27rem/var(--base));
+            }
+
+            p{
+                font-size: calc(16rem/var(--base));
+            }
+
+            button{
+                font-size: calc(16rem/var(--base));
+            }
+        }
+    }
+}
+
+
+// Responsive Styles for Packages Section. 
+
+.packages-section{
+    padding: calc(48rem/var(--base)) calc(24rem/var(--base));
+    gap: calc(40rem/var(--base));
+    .packages-input{
+        .packages-title{
+            font-size:calc(33rem/var(--base));
+            line-height: calc(39.6rem/var(--base));
+            text-align: center;
+        }
+        .packages-description{
+            font-size: calc(16rem/var(--base));
+            text-align: center;
+            line-height: calc(24rem/var(--base));
+        }
+    
+        .input-group{
+            flex-direction: column;
+            gap: calc(24rem/var(--base));
+            input{
+                padding: calc(16rem/var(--base)) 0 calc(16rem/var(--base)) calc(25rem/var(--base));
+
+            }
+            button{
+                font-size: calc(16rem/var(--base));
+
+            }
+        }
+    
+        .help-text{
+            text-align: center;
+            font-size: calc(17rem/var(--base));
+            line-height: calc(24rem/var(--base));
+
+        }
+    }
+
+    .packages{
+        flex-direction: column;
+        gap: calc(40rem/var(--base));
+        .non-serviceable{
+            padding: calc(48rem/var(--base)) calc(25rem/var(--base));
+            h2{
+                font-size: calc(24rem/var(--base));
+                line-height: calc(28.8rem/var(--base));
+            }
+            p{
+                line-height: calc(24rem/var(--base));
+            }
+        }
+        .package{
+            .badge{
+                top: -5%;
+                left: 20%;
+                width: calc(110rem/var(--base));
+                text-align: center;
+                padding: calc(10.5rem/var(--base)) calc(40rem/var(--base));
+
+            }
+            .package-title{
+                padding: calc(36rem/var(--base)) calc(15rem/var(--base)) calc(15rem/var(--base)) calc(15rem/var(--base));
+                
+                .non-fibre-package-heading{
+                    line-height: calc(24rem/var(--base));
+                }
+
+                .non-fibre-package-sub-heading{
+                    font-size: calc(14rem/var(--base));
+                    line-height: calc(21rem/var(--base));
+
+                }
+            }
+            .package-content{
+                padding: calc(24rem/var(--base)) calc(14.5rem/var(--base));
+                .non-fibre-package-price-heading{
+                    font-size: calc(23rem/var(--base));
+                    line-height: calc(27.6rem/var(--base));
+                }
+
+                .non-fibre-package-price-current{
+                    font-size: calc(23rem/var(--base));
+                    line-height: calc(27.6rem/var(--base));    
+                }
+
+                .fibre-package-price-heading{
+                    font-size: calc(18rem/var(--base));
+                    line-height: calc(27rem/var(--base));
+                }
+
+                .fibre-package-price{
+                    display: flex;
+                    align-items: center;
+                    gap: calc(8rem/var(--base));
+                    .fibre-package-price-current{
+                        color: #00A843;
+                        font-size: calc(27rem/var(--base));
+                        font-weight: 700;
+                        line-height: calc(32.4rem/var(--base));
+                        text-decoration: underline;
+                        margin: 0 0 calc(26.5rem/var(--base)) 0; 
+                    }
+                    .fibre-package-price-previous{
+                        color: #0E0E0E;
+                        font-size: calc(18rem/var(--base));
+                        font-weight: 400;
+                        line-height: calc(32.4rem/var(--base));
+                        text-decoration:line-through;
+                        margin: 0 0 calc(26.5rem/var(--base)) 0; 
+                    }
+                }
+                .package-speed{
+                    font-size: calc(23rem/var(--base));
+                    font-weight: 600;
+                    font-family: 'Nunito';
+                    margin: 0;
+                }
+                .package-features{
+                    font-size: calc(16rem/var(--base));
+                    font-weight: 400;
+                    font-family: 'OpenSans';
+                    line-height: calc(24rem/var(--base));
+                    color: #333333;
+                }
+                .package-cta{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    button{
+                        border: none;
+                        font-weight: 700;
+                        line-height: calc(24rem/var(--base));
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+// Responsive Styles For Capabilities Section
+.capabilities-container{
+    background-image: url('/wp-content/themes/thrillx/resources/imgs/lion-logo.png');
+        background-repeat: no-repeat;
+        background-size: calc(196rem/var(--base));
+        background-position: calc(222rem/var(--base)) calc(459rem/var(--base)) ;
+    padding: calc(48rem/var(--base)) calc(32rem/var(--base));
+    display: flex;
+    flex-direction: column;
+    gap: calc(80rem/var(--base));
+    &__commitment{
+        flex-direction: column;
+        gap: calc(24rem/var(--base));
+        .capabilities-img{
+            img{
+                width: calc(311rem/var(--base));
+                height: calc(246rem/var(--base));
+                object-fit: cover;
+            }
+        }
+        .capabilities-content{
+            div{
+                h2{
+                    margin-bottom:calc(16rem/var(--base));
+                    font-weight: 700;
+                    font-size: calc(27rem/var(--base));
+                }
+                p{
+                    margin-bottom: calc(32rem/var(--base));
+                    font-weight: 400;
+                    font-size: calc(18rem/var(--base));
+                    color: var(--tile-paragraph-color);
+                }
+                    button{
+                    border:none;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    &__accordion{
+        flex-direction: column-reverse;
+        gap: calc(24rem/var(--base));
+        .capabilities-img{
+            img{
+                width: calc(311rem/var(--base));
+                height: calc(246rem/var(--base));
+                object-fit: cover;
+            }
+        }
+        .capabilities-content{
+            div{
+                h2{
+                    margin-bottom:calc(16rem/var(--base));
+                    font-weight: 700;
+                    font-size: calc(27rem/var(--base));
+                }
+                p{
+                    margin-bottom: calc(32rem/var(--base));
+                    font-weight: 400;
+                    font-size: calc(18rem/var(--base));
+                    color: var(--tile-paragraph-color);
+                }
+                    button{
+                    border:none;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+// Responsive Styles for Requirements Section container
+
+.requirements-container{
+    padding: calc(48rem/var(--base)) calc(24rem/var(--base));
+    gap: calc(40rem/var(--base));
+    h2{
+        font-size: calc(33rem/var(--base));
+        padding: 0 calc(24rem/var(--base));
+    }
+
+    &__tiles{
+        flex-direction: column;
+        gap: calc(50rem/var(--base));
+        .tile{
+            padding: calc(40rem/var(--base)) calc(45.5rem/var(--base));
+            .tile-img{
+                img{
+                    width: calc(60rem/var(--base));
+                }
+                margin-bottom: calc(32rem/var(--base));
+            }
+            .tile-heading{
+                margin-bottom: calc(24rem/var(--base));
+                h3{
+                    font-size: calc(20rem/var(--base));
+                }
+            }
+
+            .tile-list{
+
+                flex-direction: column;
+                gap: calc(8rem/var(--base));
+                div{
+                    gap: calc(16rem/var(--base));
+                    img{
+                        width: calc(24rem/var(--base));
+                    }  
+                    p{
+                        font-size: calc(16rem/var(--base));
+                        margin:0
+                    }
+                }
+            }
+        }
+    }
+
+    button{
+        border:none;
+    }
+}
+
+
+}
+
+
+

@@ -1,0 +1,19 @@
+// Primary Button styles
+
+.primary-button{
+    background-color:var(--primary-color);
+    border-radius: calc(20rem/var(--base));
+    padding: calc(16rem/var(--base)) calc(56rem/var(--base));
+    color: var(--primary-text-color);
+}
+
+.secondary-button{
+    background-color:var(--white-background-color);
+    border-radius: calc(20rem/var(--base));
+    padding: calc(16rem/var(--base)) calc(56rem/var(--base));
+    color: var(--secondary-text-color);
+}
+
+.mobile-button{
+    display: none;
+}

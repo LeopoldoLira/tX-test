@@ -1,0 +1,8 @@
+@media (min-width:1px) and (max-width:425px){
+    footer{
+        gap: calc(40rem/var(--base));
+        padding: calc(48rem/var(--base)) calc(32rem/var(--base));    
+        flex-direction: column;
+    
+    }
+}

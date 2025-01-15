@@ -1,0 +1,53 @@
+::backdrop {
+    background-color: #5C5C5C;
+  }
+
+dialog{
+    position: relative;
+    border-radius: calc(16rem/var(--base));
+    border: 1px solid rgba(234, 234, 234, 1);
+    box-shadow: 0 calc(10rem/var(--base)) calc(30rem/var(--base)) 0 rgba(0, 0, 0, 0.1);
+    .package-modal-content{
+        padding: calc(64rem/var(--base)) calc(48rem/var(--base));
+        display: flex;
+        flex-direction: column;
+        gap: calc(48rem/var(--base));
+        div{
+            h2{
+                font-size: calc(33rem/var(--base));
+                font-weight: 700;
+                line-height: calc(39.6rem/var(--base));
+            }
+            p{
+                line-height: calc(24rem/var(--base));
+            }
+        }
+        .input-group-modal{
+            display: flex;
+            gap: calc(24rem/var(--base));
+            input{
+                background-color: #EEEEEE;
+                border: none;
+                border-radius: calc(15rem/var(--base));
+                padding: calc(16rem/var(--base)) 0 calc(16rem/var(--base)) calc(25rem/var(--base));
+                font-style: italic;
+                width: calc(255rem/var(--base));
+                outline: none;
+                width: calc(356rem/var(--base));
+            }
+            button{
+                border: none;
+                font-weight: 700;
+                line-height: calc(24rem/var(--base));
+            }
+        }
+
+        #close-modal-button{
+            position: absolute;
+            top: calc(8.5rem/var(--base));
+            right: calc(1.47rem/var(--base));
+            background-color: white;
+            border: none;
+        }
+    }
+}

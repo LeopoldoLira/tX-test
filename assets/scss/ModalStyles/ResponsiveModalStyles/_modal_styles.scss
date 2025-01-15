@@ -1,0 +1,40 @@
+dialog{
+
+    .package-modal-content{
+        padding: calc(48rem/var(--base)) calc(25rem/var(--base));
+        gap: calc(40rem/var(--base));
+        div{
+            h2{
+                font-size: calc(23rem/var(--base));
+                line-height: calc(27.6rem/var(--base));
+            }
+            p{
+                color: rgba(54, 51, 40, 1);
+            }
+        }
+        .input-group-modal{
+            flex-direction: column;
+            gap: calc(16rem/var(--base));
+            input{
+                background-color: #EEEEEE;
+                border: none;
+                border-radius: calc(15rem/var(--base));
+                padding: calc(16rem/var(--base)) 0 calc(16rem/var(--base)) calc(25rem/var(--base));
+                font-style: italic;
+                width: 91.5%;
+                outline: none;
+            }
+            button{
+                line-height: calc(24rem/var(--base));
+            }
+        }
+
+        #close-modal-button{
+            position: absolute;
+            top: calc(8.5rem/var(--base));
+            right: calc(1.47rem/var(--base));
+            background-color: white;
+            border: none;
+        }
+    }
+}

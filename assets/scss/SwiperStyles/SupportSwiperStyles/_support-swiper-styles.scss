@@ -1,0 +1,19 @@
+
+.Swiper2{
+    .swiper-wrapper{
+        .swiper-slide{
+            padding: calc(80rem/var(--base)) calc(120rem/var(--base));
+        }
+    }
+}
+
+
+
+.secondary-fixed-image{
+    img{
+        width: calc(557rem/var(--base));
+        height: calc(421rem/var(--base));
+        border-radius: calc(15rem/var(--base));
+        object-fit: cover;
+    }
+}

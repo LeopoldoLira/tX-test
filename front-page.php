@@ -40,6 +40,79 @@
 </div>
 
 
+
+<div class="scroll-container">
+  <div class="scroll-content">
+    <!-- Text sections (scrollable) -->
+    <div class="scroll-text-section" data-swap="image-1">
+      <h2>At here, we always put you first</h2>
+      <p>Our focus is on delivering seamless, secure, and customized connectivity, ensuring that every interaction is reliable and tailored to meet your unique needs.</p>
+      <button class="primary-button scrolling-button">Sign-up Today</button>
+    </div>
+    <div class="scroll-text-section" data-swap="image-2">
+      <h2>We don’t believe in bots; reach a live rep in 13 seconds</h2>
+      <p>On average, it takes just 13 seconds to connect with a live, local Customer Service Representative. Our team is always ready to assist you, ensuring that your needs are met.</p>
+      <button class="primary-button scrolling-button">Sign-up Today</button>
+    </div>
+    <div class="scroll-text-section" data-swap="image-3">
+      <h2>Experience true value with transparent pricing</h2>
+      <p>With us, what you see is what you get. We pride ourselves on transparency, ensuring you receive exactly what you pay for—no hidden fees, no surprises.</p>
+      <button class="primary-button scrolling-button">Sign-up Today</button>
+    </div>
+    <div class="scroll-text-section" data-swap="image-4">
+      <h2>We’re committed to our community</h2>
+      <p>Being a local company means that you are one of us! We deeply value our roots and are dedicated to reinvesting in the community that sustains us. </p>
+      <button class="primary-button scrolling-button">Sign-up Today</button>
+    </div>
+  </div>
+  <!-- Image container (fixed) -->
+  <div class="scroll-image-container">
+    <img class="scroll-image" src="/wp-content/themes/thrillx/resources/imgs/support-slide-one.jpeg" data-id="image-1" alt="Image 1">
+    <img class="scroll-image" src="/wp-content/themes/thrillx/resources/imgs/support-slide-two.jpeg" data-id="image-2" alt="Image 2">
+    <img class="scroll-image" src="/wp-content/themes/thrillx/resources/imgs/support-slide-three.jpeg" data-id="image-3" alt="Image 3">
+    <img class="scroll-image" src="/wp-content/themes/thrillx/resources/imgs/support-slide-four.jpeg" data-id="image-4" alt="Image 4">
+  </div>
+
+  <div class="pagination"> <!-- Pagination stays fixed -->
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+</div>
+
+
+<div class="mobile-scroll-container">
+    <div class='mobile-scroll-container__item'>
+        <img src="/wp-content/themes/thrillx/resources/imgs/support-slide-one.jpeg" alt="">
+        <h2>At here, we always put you first</h2>
+        <p>Our focus is on delivering seamless, secure, and customized connectivity, ensuring that every interaction is reliable and tailored to meet your unique needs.</p>
+        <button>Sign-up Today</button>
+    </div>
+    <div class='mobile-scroll-container__item'>
+        <img src="/wp-content/themes/thrillx/resources/imgs/support-slide-two.jpeg" alt="">
+        <h2>We don’t believe in bots; reach a live rep in 13 seconds</h2>
+        <p>On average, it takes just 13 seconds to connect with a live, local Customer Service Representative. Our team is always ready to assist you, ensuring that your needs are met.</p>
+        <button>Sign-up Today</button>
+    </div>
+    <div class='mobile-scroll-container__item'>
+        <img src="/wp-content/themes/thrillx/resources/imgs/support-slide-three.jpeg" alt="">
+        <h2>Experience true value with transparent pricing</h2>
+        <p>With us, what you see is what you get. We pride ourselves on transparency, ensuring you receive exactly what you pay for—no hidden fees, no surprises.</p>
+        <button>Sign-up Today</button>
+    </div>
+    <div class='mobile-scroll-container__item'>
+        <img src="/wp-content/themes/thrillx/resources/imgs/support-slide-four.jpeg" alt="">
+        <h2>We’re committed to our community</h2>
+        <p>Being a local company means that you are one of us! We deeply value our roots and are dedicated to reinvesting in the community that sustains us. </p>
+        <button>Sign-up Today</button>
+    </div>
+</div>
+
+
+
+
+
 <section class='fibre-container'>
  <div class='fibre-container__home'>
     <div class='info'>
