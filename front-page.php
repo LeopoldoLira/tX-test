@@ -83,25 +83,25 @@
 
 
 <div class="mobile-scroll-container">
-    <div class='mobile-scroll-container__item'>
+    <div class='mobile-scroll-container__item fade-in'>
         <img src="/wp-content/themes/thrillx/resources/imgs/support-slide-one.jpeg" alt="">
         <h2>At here, we always put you first</h2>
         <p>Our focus is on delivering seamless, secure, and customized connectivity, ensuring that every interaction is reliable and tailored to meet your unique needs.</p>
         <button>Sign-up Today</button>
     </div>
-    <div class='mobile-scroll-container__item'>
+    <div class='mobile-scroll-container__item fade-in'>
         <img src="/wp-content/themes/thrillx/resources/imgs/support-slide-two.jpeg" alt="">
         <h2>We don’t believe in bots; reach a live rep in 13 seconds</h2>
         <p>On average, it takes just 13 seconds to connect with a live, local Customer Service Representative. Our team is always ready to assist you, ensuring that your needs are met.</p>
         <button>Sign-up Today</button>
     </div>
-    <div class='mobile-scroll-container__item'>
+    <div class='mobile-scroll-container__item fade-in'>
         <img src="/wp-content/themes/thrillx/resources/imgs/support-slide-three.jpeg" alt="">
         <h2>Experience true value with transparent pricing</h2>
         <p>With us, what you see is what you get. We pride ourselves on transparency, ensuring you receive exactly what you pay for—no hidden fees, no surprises.</p>
         <button>Sign-up Today</button>
     </div>
-    <div class='mobile-scroll-container__item'>
+    <div class='mobile-scroll-container__item fade-in'>
         <img src="/wp-content/themes/thrillx/resources/imgs/support-slide-four.jpeg" alt="">
         <h2>We’re committed to our community</h2>
         <p>Being a local company means that you are one of us! We deeply value our roots and are dedicated to reinvesting in the community that sustains us. </p>
@@ -115,16 +115,16 @@
 
 <section class='fibre-container'>
  <div class='fibre-container__home'>
-    <div class='info'>
+    <div class='info fade-in'>
         <h2>Fibre to the home</h2>
         <p>With our fibre-to-the-home service, you can enjoy fast speeds without any shared connections. Experience uninterrupted, high-speed internet with no lag or downtime, ensuring a smooth and reliable online experience.</p>
         <button class='primary-button'>Upgrade to Fibre today</button>
     </div>
-    <picture class='img'>
-        <img src='http://thrillx-test.local/wp-content/uploads/2025/01/front-store-photo.webp' />
+    <picture class='img fade-in'>
+        <img src='/wp-content/uploads/2025/01/front-store-photo.webp' />
     </picture>
  </div>
- <div class='fibre-container__area' style='background-image:url("http://thrillx-test.local/wp-content/uploads/2025/01/house-background-scaled.webp"); background-position:center; background-size:cover'>
+ <div class='fibre-container__area fade-in' style='background-image:url("/wp-content/uploads/2025/01/house-background-scaled.webp"); background-position:center; background-size:cover'>
     <div class='content'>
         <h2>Check for Fibre in your area</h2>
         <p>Discover how our Fibre network can enhance your connectivity experience with clear and reliable service tailored to your needs.</p>
@@ -279,7 +279,7 @@
 
 <section class='capabilities-container'>
     <div class='capabilities-container__commitment'>
-        <div class='capabilities-img'>
+        <div class='capabilities-img fade-in'>
             <img src="/wp-content/uploads/2025/01/capability-image-one-scaled.webp" alt="" />
         </div>
         <div class='capabilities-content'>
@@ -316,7 +316,7 @@
                 <button class='primary-button'>Sign-up Today</button>
             </div>
         </div>
-        <div class='capabilities-img'>
+        <div class='capabilities-img fade-in'>
             <img src="/wp-content/uploads/2025/01/capability-image-two-scaled.webp" alt="" />
         </div>
     </div>

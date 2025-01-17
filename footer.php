@@ -2,7 +2,7 @@
 
 <footer>
     <div class='logo-container'>
-        <img src="http://thrillx-test.local/wp-content/uploads/2025/01/ThrillXlogo.png" alt="ThrillX Logo" />
+        <img src="/wp-content/uploads/2025/01/ThrillXlogo.png" alt="ThrillX Logo" />
         <div class='socials-container'>
             <a href="/">
                 <img src='/wp-content/themes/thrillx/resources/icons/ig.svg' />
@@ -152,6 +152,9 @@ openMenu.addEventListener('click', ()=>{
 
 openMobileMenu = document.getElementById('hamburger-menu');
 body = document.getElementById('body');
+
+body.classList.contains('admin-bar') ? body.classList.add('is-user-logged') : body.classList.remove('is-user-logged')
+
 mobileNavigationSubMenu = document.getElementById('mobile-navigation-submenu');
 openMobileMenu.addEventListener('click',()=>{
     body.classList.add('no-scroll')
@@ -184,6 +187,30 @@ capabilitiesAccordionOpener.addEventListener('click',()=>{
   capabilitiesAccordionOpener.classList.toggle('is-rotated');
   capabilitiesAccordionContent.classList.toggle('is-open');
 })
+
+
+// Renaming the function to fadeInHandler
+const fadeInHandler = (entries, fadeInObserver) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Add 'visible' class to the element when it comes into view
+            entry.target.classList.add('visible');
+            // Optional: stop observing after the element has become visible
+            fadeInObserver.unobserve(entry.target);
+        }
+    });
+};
+
+// Create a new intersection observer for fade-in functionality
+const fadeInObserver = new IntersectionObserver(fadeInHandler, {
+    threshold: 0.2 // Trigger when 20% of the element is in view
+});
+
+// Select all elements with the 'fade-in' class and observe them
+document.querySelectorAll('.fade-in').forEach(element => {
+    fadeInObserver.observe(element);
+});
+
 
 </script>
 </body>

@@ -6,7 +6,7 @@
                 $INTERNET_PACKAGE_CTA = get_sub_field('internet_package_cta');
                 ?>
             
-            <div class='package'>
+            <div class='package fade-in'>
                 <div class="badge"><?=$INTERNET_PACKAGE_BADGE; ?></div>
                 <div class="package-title">
                     <h3><?=$INTERNET_PACKAGE_DISCOUNT; ?></h3>

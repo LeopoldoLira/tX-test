@@ -1,5 +1,12 @@
 @media (min-width:1px) and (max-width:425px){
+   #wpadminbar{
+    display: none;
+   }
+   .admin-bar.is-user-logged{
+    margin: 0;
+   }
     header{
+        overflow: hidden;
         .desktop-banner-container{
             display: none;
         }
@@ -74,16 +81,17 @@
     }
 
     .mobile-navigation-submenu.is-open{
-        // transform: translateX(0);
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 1000; /* Ensure it's on top of everything */
+        z-index: 999; /* Ensure it's on top of everything */
         width: 90vw;
         height: 100vh;
+        opacity: 1;
         transform: translateX(0); /* Fully visible */
         overflow-y: auto; /* Allow scrolling within the submenu */
         background-color: white; /* Or any color you prefer for the submenu */
+        display: block;
     }
 
     .mobile-navigation-submenu{
@@ -95,9 +103,13 @@
         background-color: white;
         height: 100vh;
         width: 90%;
+        opacity: 0; /* Hidden by default */
         transform: translateX(100%);
-        transition: transform 300ms ease-in-out;
-        display: block;
+        display: none;
+        transition: transform 300ms ease-in-out, 
+                    opacity 300ms ease-in-out,
+                    display 300ms ease-in-out allow-discrete; /* Add visibility transition */
+
         &__close{
             display: flex;
             justify-content: flex-end;

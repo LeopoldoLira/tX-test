@@ -23,8 +23,10 @@
 
 }
 
-
-
+// fixing admin bar in desktop.
+.admin-bar.is-user-logged{
+    margin-top:32px
+}
 
 // Loading Fonts locally to be used in headings and other content elements.
 @font-face{
@@ -45,9 +47,25 @@ p, a, button, input{
     font-family: 'OpenSans';
 }
 
+html{
+    margin: 0 !important;
+}
+
 body{
     position: relative;
 }
+
+/* Class for elements that will fade in */
+.fade-in {
+    --fade-in-time:1s;
+    opacity: 0;
+    transition: opacity var(--fade-in-time) ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
 
 // Styles for components.
 @import './Components';

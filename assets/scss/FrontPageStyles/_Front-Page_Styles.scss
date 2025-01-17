@@ -20,6 +20,10 @@
     z-index: 2;
      }
 
+     .scroll-content::-webkit-scrollbar {
+        display: none; /* Hide scrollbar on webkit browsers */
+    }
+
   .pagination {
     position: absolute; /* Keep pagination fixed */
     top: calc(290rem/var(--base));
@@ -83,6 +87,8 @@
     color: black;
     border: 1px solid black;
   }
+
+ 
   
   .scroll-text-section {
     display: flex;
@@ -91,7 +97,7 @@
     transition: opacity 0.8s ease-in-out;
     margin-bottom: 20px;
     padding: 70px 0;
-    scrollbar-color:white white;
+    
     
     h2{
         font-size: calc(40rem/var(--base));
@@ -119,15 +125,6 @@
     background-color: #717171;
 }
   
-
-.scroll-text-section::-webkit-scrollbar {
-    display: none !important; /* Hide scrollbar for webkit browsers */
-     }
-  
-  .scroll-text-section {
-    -ms-overflow-style: none !important;  /* For IE and Edge */
-    scrollbar-width: none !important;  /* For Firefox */
-  }
 
 
   .mobile-scroll-container{
